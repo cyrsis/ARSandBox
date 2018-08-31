@@ -12,6 +12,8 @@ import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
+    //Everything need to add /remove need ARSCNViewDelegate
+
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
